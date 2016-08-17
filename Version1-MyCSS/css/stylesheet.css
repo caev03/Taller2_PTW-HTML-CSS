@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("http://wallpapercave.com/wp/f5uxif8.jpg");
+    background-repeat: repeat-y;
+    background-size:100%;
+}
+.image {
+    width: 400px;
+    height:auto;
+    display:block;
+    vertical-align: middle;
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 70%;
+}
+.mainText {
+    width: 800px;
+    margin: 0 auto;
+    background-color:#F0F0F0;
+    padding: 15px;
+    vertical-align: middle;
+    max-width: 90%;
+}
+p {
+    text-align: justify;
+    margin:10px 0 10px 0;
+}
+.header{
+    background-color: #333;
+    width:100%;
+}
+.navbar ul {
+    display:flex;
+    justify-content:space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:40px;
+}
+.navbar ul li{
+    display: inline;
+    line-height: 40px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:#FFF;
+    font-size: 1.1em;
+    padding: 14px 16px;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    background-color:#FA8320;
+}
+.nomarks{
+    list-style-type: none;
+}
+h1 {
+    text-align:center;
+}
+.active {
+    background-color:#FA8320;
+}
+ol{
+    padding-right:50px;
+}
+.references ul{
+    padding: 10px;
+}
+.references ul li a {
+    text-decoration:none;
+    color:black;
+    font-size:1.2em;
+}
+.references ul li a:hover {
+    background-color:#FA8320;
+    color:white;
+}
+table{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    padding: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1px;
+}
+h2 {
+    margin:10px 0 10px 0;
+}
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 200px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+.img-list img {
+    width:200px;
+    height:150px;
+}

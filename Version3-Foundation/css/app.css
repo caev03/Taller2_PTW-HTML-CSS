@@ -1,0 +1,83 @@
+.top-bar{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.menu-text{
+	color: white;
+}
+.menu-text{
+ 	background-color: black;
+ }
+body{
+ 	background-image: url("http://wallpapercave.com/wp/f5uxif8.jpg");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ }
+ .row{
+ 	background: rgba(255, 255, 255, 0.35);
+  	border-radius: 3px;
+  	box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+  	right: 0;
+  	z-index: 2;
+  	padding: 0 10px;
+  	padding-top: 4%;
+ }
+ p{
+ 	padding: 15px;
+ }
+ td{
+ 	text-align: center;
+ }
+ h1{
+ 	text-align: center;
+ }
+ li.nav{
+ 	background-color: black;
+ }
+ .menu{
+ 	background-color: black;
+ }
+ a{
+ 	background-color: black;
+ }
+ .top-bar .menu a:hover{
+ 	background-color: #2199e8;
+ 	color: white;
+ }
+ .image{
+ 	padding-bottom: 20px;
+ 	border-color: black;
+	border-width: 10px;
+	width: 575px;
+	height: 375px;
+ }
+ div.lista-hover div:hover span.text-content{
+ 	opacity: 1;
+ }
+ span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 375px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 575px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.nomarks{
+	list-style-type: none;
+}
